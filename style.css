@@ -2,7 +2,8 @@ body {
     background-color: #ffffff;
 }
 .titleblock{
-    text-align: left;
+    display: grid;
+    place-content: left;
 }
 h1{
     border-left: 1vw solid #ff5151;
@@ -14,13 +15,20 @@ h1{
     font-size: 2vw;
 }
 .content-float{
-    text-align: center;
+    width: 90vw;
+    height: 90vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 .contentblock{
-    width: 90vw;
+    
 }
+
 .timeblock{
-    text-align: right;
+    display: grid;
+    place-content: center;
 }
 #realtime{
     font-weight: bolder;
@@ -29,7 +37,8 @@ h1{
     font-family: "M PLUS 1 Code", monospace;
 }
 .dayblock{
-    text-align: right;
+    display: grid;
+    place-content: center;
 }
 #realdate{
     color: #424242;
