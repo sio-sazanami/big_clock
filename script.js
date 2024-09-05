@@ -9,7 +9,7 @@ function twoDigit(num) {
 function showClock() {
   let nowTime = new Date();
   let nowYear = nowTime.getFullYear();
-  let nowMonth = nowTime.getMonth();
+  let nowMonth = Number( nowTime.getMonth() ) + 1;
   let nowDay = nowTime.getDate();
   let nowHour = twoDigit( nowTime.getHours() );
   let nowMin  = twoDigit( nowTime.getMinutes() );
