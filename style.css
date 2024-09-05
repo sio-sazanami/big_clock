@@ -1,0 +1,39 @@
+body {
+    background-color: #ffffff;
+}
+.titleblock{
+    text-align: left;
+}
+h1{
+    border-left: 1vw solid #ff5151;
+    margin-left: 1vw;
+    padding-left: 0.5vw;
+    color: #424242;
+    font-family: "M PLUS 1 Code", monospace;
+    font-weight: 300;
+    font-size: 2vw;
+}
+.content-float{
+    text-align: center;
+}
+.contentblock{
+    width: 90vw;
+}
+.timeblock{
+    text-align: right;
+}
+#realtime{
+    font-weight: bolder;
+    font-size: 20vw;
+    font-weight: bold;
+    font-family: "M PLUS 1 Code", monospace;
+}
+.dayblock{
+    text-align: right;
+}
+#realdate{
+    color: #424242;
+    font-family: "M PLUS 1 Code", monospace;
+    font-weight: 300;
+    font-size: 5vw;
+}
