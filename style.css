@@ -1,5 +1,5 @@
 body {
-    background-color: #ffffff;
+    background-color: #f3f3f3;
 }
 .titleblock{
     display: grid;
@@ -11,8 +11,8 @@ h1{
     padding-left: 0.5vw;
     color: #424242;
     font-family: "M PLUS 1 Code", monospace;
-    font-weight: 300;
-    font-size: 2vw;
+    font-weight: 400;
+    font-size: 3vw;
 }
 .content-float{
     width: 90vw;
@@ -31,6 +31,7 @@ h1{
     place-content: center;
 }
 #realtime{
+    color: #1f1f1f;
     font-weight: bolder;
     font-size: 20vw;
     font-weight: bold;
